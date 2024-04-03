@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class ReaponsividadeRowCol extends StatefulWidget {
   const ReaponsividadeRowCol({super.key});
@@ -12,8 +10,6 @@ class ReaponsividadeRowCol extends StatefulWidget {
 class _ReaponsividadeRowColState extends State<ReaponsividadeRowCol> {
   @override
   Widget build(BuildContext context) {
-    double largura = MediaQuery.of(context).size.width;
-    double altura = MediaQuery.of(context).size.height;
 
     return Scaffold(
       appBar: AppBar(
