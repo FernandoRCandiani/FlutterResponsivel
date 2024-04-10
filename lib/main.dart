@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/regras_layout.dart';
+import 'package:flutter_application_1/loja_virtual.dart';
 
 void main() {
   runApp(const MaterialApp(
     title: "Flutter Web",
     debugShowCheckedModeBanner: false,
-    home: RegrasLayout(),
+    home: LojaVirtual(),
   ));
 }
 
